@@ -1,0 +1,15 @@
+C:\Users\levib\source\repos\CL-Knowledge-Check-2\CL-Knowledge-Check-2\CL-Knowledge-Check-2\bin\Debug\net7.0\CL-Knowledge-Check-2.exe
+C:\Users\levib\source\repos\CL-Knowledge-Check-2\CL-Knowledge-Check-2\CL-Knowledge-Check-2\bin\Debug\net7.0\CL-Knowledge-Check-2.deps.json
+C:\Users\levib\source\repos\CL-Knowledge-Check-2\CL-Knowledge-Check-2\CL-Knowledge-Check-2\bin\Debug\net7.0\CL-Knowledge-Check-2.runtimeconfig.json
+C:\Users\levib\source\repos\CL-Knowledge-Check-2\CL-Knowledge-Check-2\CL-Knowledge-Check-2\bin\Debug\net7.0\CL-Knowledge-Check-2.dll
+C:\Users\levib\source\repos\CL-Knowledge-Check-2\CL-Knowledge-Check-2\CL-Knowledge-Check-2\bin\Debug\net7.0\CL-Knowledge-Check-2.pdb
+C:\Users\levib\source\repos\CL-Knowledge-Check-2\CL-Knowledge-Check-2\CL-Knowledge-Check-2\obj\Debug\net7.0\CL-Knowledge-Check-2.csproj.AssemblyReference.cache
+C:\Users\levib\source\repos\CL-Knowledge-Check-2\CL-Knowledge-Check-2\CL-Knowledge-Check-2\obj\Debug\net7.0\CL-Knowledge-Check-2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\levib\source\repos\CL-Knowledge-Check-2\CL-Knowledge-Check-2\CL-Knowledge-Check-2\obj\Debug\net7.0\CL-Knowledge-Check-2.AssemblyInfoInputs.cache
+C:\Users\levib\source\repos\CL-Knowledge-Check-2\CL-Knowledge-Check-2\CL-Knowledge-Check-2\obj\Debug\net7.0\CL-Knowledge-Check-2.AssemblyInfo.cs
+C:\Users\levib\source\repos\CL-Knowledge-Check-2\CL-Knowledge-Check-2\CL-Knowledge-Check-2\obj\Debug\net7.0\CL-Knowledge-Check-2.csproj.CoreCompileInputs.cache
+C:\Users\levib\source\repos\CL-Knowledge-Check-2\CL-Knowledge-Check-2\CL-Knowledge-Check-2\obj\Debug\net7.0\CL-Knowledge-Check-2.dll
+C:\Users\levib\source\repos\CL-Knowledge-Check-2\CL-Knowledge-Check-2\CL-Knowledge-Check-2\obj\Debug\net7.0\refint\CL-Knowledge-Check-2.dll
+C:\Users\levib\source\repos\CL-Knowledge-Check-2\CL-Knowledge-Check-2\CL-Knowledge-Check-2\obj\Debug\net7.0\CL-Knowledge-Check-2.pdb
+C:\Users\levib\source\repos\CL-Knowledge-Check-2\CL-Knowledge-Check-2\CL-Knowledge-Check-2\obj\Debug\net7.0\CL-Knowledge-Check-2.genruntimeconfig.cache
+C:\Users\levib\source\repos\CL-Knowledge-Check-2\CL-Knowledge-Check-2\CL-Knowledge-Check-2\obj\Debug\net7.0\ref\CL-Knowledge-Check-2.dll

@@ -12,17 +12,20 @@ namespace CL_Knowledge_Check_2
 
         public VideoGame()
         {
+            int maxNameLength = 20;
+            bool nameVerified = false;
             do
             {
-                Console.WriteLine("What is the name of this game? ");
+                Console.WriteLine($"What is the name of this game? (Max characters: {maxNameLength})");
                 string gameName = Console.ReadLine();
-                if (!string.IsNullOrWhiteSpace(gameName))
+                if (!string.IsNullOrWhiteSpace(gameName) && gameName.Length <= maxNameLength)
                 {
                     GameName = gameName;
+                    nameVerified = true;
                 }
-                else Console.WriteLine("Please enter the name of the game.");
+                else Console.WriteLine("Please enter a valid name.");
 
-            } while (GameName == default(string));
+            } while (!nameVerified);
         }
     }
 }

@@ -12,16 +12,22 @@ namespace CL_Knowledge_Check_2
 
         public RealTimeStrategyGame()
         {
+            int minNumFactions = 0;
+            int maxNumFactions = 50;
+            bool NumFactionsVerified = false;
             do
             {
-                Console.Write("How many Factions are in this game, including subfactions as seperate factions.\n");
-                if (int.TryParse(Console.ReadLine(), out int numberOfFactions))
+                Console.Write($"How many Factions are in this game, including subfactions as seperate factions.(Min: {minNumFactions} Max: {maxNumFactions})\n");
+                string input = Console.ReadLine();
+                if (int.TryParse(input, out int userInputInt) &&
+                        (minNumFactions < userInputInt && userInputInt <= maxNumFactions))
                 {
-                    NumberOfFactions = numberOfFactions;
+                    NumberOfFactions = userInputInt;
+                    NumFactionsVerified = true;
                 }
                 else Console.WriteLine("Please make sure to enter the number correctly.");
 
-            } while (NumberOfFactions == default(int));
+            } while (!NumFactionsVerified);
         }
     }
 }

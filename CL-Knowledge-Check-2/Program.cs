@@ -27,16 +27,22 @@
             int AskUserForNumberOfRTSGames()
             {
                 int numberOfRTSGames = default(int);
+                int minAddedGames = 1;
+                int maxAddedGames = 20;
+                bool numGamesVerified = false;
                 do
                 {
-                    Console.Write("How many RTS games do you want to add?\n");
-                    if (int.TryParse(Console.ReadLine(), out int userInputInt))
+                    Console.Write($"How many RTS games do you want to add? (Min: {minAddedGames} Max: {maxAddedGames})\n");
+                    string input = Console.ReadLine();
+                    
+                    if (int.TryParse(input, out int userInputInt) &&
+                        (minAddedGames < userInputInt && userInputInt <= maxAddedGames))
                     {
                         numberOfRTSGames = userInputInt;
-                    }
-                    else Console.WriteLine("Please make sure to enter the number correctly.");
+                        numGamesVerified = true;
+                    }else Console.WriteLine("Please make sure to enter the number correctly.");
 
-                } while (numberOfRTSGames == default(int));
+                } while (!numGamesVerified);
                 return numberOfRTSGames;
             }
         }

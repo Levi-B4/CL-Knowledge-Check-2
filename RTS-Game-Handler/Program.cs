@@ -1,4 +1,4 @@
-﻿namespace CL_Knowledge_Check_2
+﻿namespace RTSGameHandler
 {
     internal class Program
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CL_Knowledge_Check_2
+namespace RTSGameHandler
 {
     internal class RealTimeStrategyGame : VideoGame
     {

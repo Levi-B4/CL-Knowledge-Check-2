@@ -9,21 +9,20 @@
             var RTSGameList = new List<RealTimeStrategyGame>();
             for (int i = 0; i < numberOfRTSGames; i++)
             {
-                // In this loop, populate the object's properties using Console.ReadLine()
                 Console.WriteLine($"Game {i+1}:");
                 var myClass = new RealTimeStrategyGame();
                 RTSGameList.Add(myClass);
             }
 
-            // Print out the list of records using Console.WriteLine()
             foreach (RealTimeStrategyGame game in RTSGameList)
             {
                 Console.WriteLine($"{game.GameName} has {game.NumberOfFactions} Factions.");
             }
+            Console.WriteLine("Press Enter to exit Program.");
+            Console.ReadLine();
 
 
-            //methods (Not putting in Repo class so that the two requested classes are more clear)
-
+            //Methods
             int AskUserForNumberOfRTSGames()
             {
                 int numberOfRTSGames = default(int);

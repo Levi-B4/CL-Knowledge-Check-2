@@ -12,7 +12,7 @@ namespace CL_Knowledge_Check_2
 
         public VideoGame()
         {
-            int maxNameLength = 20;
+            const int maxNameLength = 20;
             bool nameVerified = false;
             do
             {
